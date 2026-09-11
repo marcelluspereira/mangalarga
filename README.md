@@ -3,7 +3,7 @@ An MSX2+ based computer using the Zilog Z380 microprocessor and no FPGAs
 
 ## XRX - eXperimental Research X
 The prototyping phase of this project is called ["XRX"](https://hackaday.io/project/205929-xrx-experimental-research-x) and is being developed as an ongoing effort.
-The first plate for production is called "Mangalarga" in homage to the Brazilian horse breed known for its exceptionally smooth gaits, great stamina, and gentle temperament.
+The first board for production is called "Mangalarga" in homage to the Brazilian horse breed known for its exceptionally smooth gaits, great stamina, and gentle temperament.
 
 ## Technical Specifications
 
