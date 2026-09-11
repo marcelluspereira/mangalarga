@@ -88,6 +88,15 @@ The Z380 microprocessor has 2 different clock domains: the BUSCLK for the memory
 
 After a reset, the MSX-patched BIOS will program Z380's internal registers to use BUSCLK divided by 4 as the base clock for I/O operations. In practice, memory operations are executed at 14,32MHz and I/O operations are executed at 3.58MHz.
 
+### Wait states
+
+The Z380 internal wait-states generators are being used. 
+
+- 0 wait states are being used for memory operations (both RAM and ROM)
+- 5 wait states are being used for I/O operations
+
+Exceptionally, in the CPLD there is a more complex wait generation logic for VDP accesses.
+
 ### Memory
 
 The memory mapper uses four 3-bit page registers (ports `FCh` through `FFh`) to map 16 KB windows into the Z380's lower address space when slot 3-0 is selected. This reduced configuration makes a total of 128 KB of mapper RAM available, due to a CPLD limitation.
