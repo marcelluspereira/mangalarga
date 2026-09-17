@@ -86,16 +86,18 @@ There are 2 clock sources in the system:
 
 The Z380 microprocessor has 2 different clock domains: the BUSCLK for the memory operations and the IOCLK for I/O operations. The source for the BUSCLK is the 4x PLL output.
 
-After a reset, the MSX-patched BIOS will program Z380's internal registers to use BUSCLK divided by 4 as the base clock for I/O operations. In practice, memory operations are executed at 14,32MHz and I/O operations are executed at 3.58MHz.
+After a reset, the MSX-patched BIOS will program Z380's internal registers to use BUSCLK divided by 4 as the base clock for I/O operations. In practice, memory operations are executed at 14,32MHz and I/O operations are executed at 3.58MHz. 
 
 ### Wait states
 
 The Z380 internal wait-states generators are being used. 
 
 - 0 wait states are being used for memory operations (both RAM and ROM)
-- 5 wait states are being used for I/O operations
+- 4 wait states are being used for I/O operations
 
 Exceptionally, in the CPLD there is a more complex wait generation logic for VDP accesses.
+
+In the MSX standard, a wait state is generated on every \M1 cycle, but this does not occur in the XRX prototype / Mangalarga board.
 
 ### Memory
 
