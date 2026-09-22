@@ -201,4 +201,14 @@ In contrast, the Z380, which uses a pipelined architecture, performs I/O operati
 
 ## Roadmap
 
+You can check the progress (not really a "roadmap", but...) [here](https://github.com/users/marcelluspereira/projects/2).
 
+## Trivia
+
+Like millions of other children in the 1970s and 1980s, I, too, grew up fascinated by these little machines, typing out BASIC programs I found in computer magazines. In Brazil, the most famous of these was called “Microsistemas.” And, for me, of all the issues, the most memorable one had this cover:
+
+<img width="340" height="456" alt="image" src="https://github.com/user-attachments/assets/1170fcff-13fe-467e-bba0-df70f09e86d8" />
+
+The artwork by Ingrid von Steurer and Gilberto Zavarezzi has always filled me with admiration and inspiration. Since I don’t have even a fraction of the duo’s talent, I asked the AI to expand on the concept, and on an imaginary timeline, we would now have this version to celebrate the most powerful MSX computer of 1994.
+
+<img width="1024" height="712" alt="image" src="https://github.com/user-attachments/assets/c0f9d524-7f17-4f72-a393-6ae2b2bb7905" />
